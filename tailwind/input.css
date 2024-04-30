@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+body {
+  font-family: "Poppins-Regular";
+}
+
+:root {
+  --primary: #1d4ed8 ;
+  --secondary: #0FFF95 ;
+  --tertiary: #F8F7FF ;
+  --bg-primary: var(--tertiary);
+  --text-primary: #111827;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
