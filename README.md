@@ -7,7 +7,7 @@
 CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications.
 <br>
 
-- [Tailwindcss](https://tailwindcss.com/)
+- [Tailwindcss 4.x](https://tailwindcss.com/)
 A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 <br>
 
@@ -21,14 +21,6 @@ Open-source iconography for designers and developers
 
 - [jQuery](https://jquery.com/)
 jQuery is a fast, small, and feature-rich JavaScript library.
-<br>
-
-- [Axios](https://axios-http.com/)
-Axios is a simple promise based HTTP client for the browser and node.js. Axios provides a simple to use library in a small package with a very extensible interface.
-<br>
-
-- [Sweet Alert 2](https://sweetalert2.github.io/)
-A beautiful, responsive, customizable, accessible (wai-aria) replacement for javascript's popup boxes
 <br>
 
 - [Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins)
@@ -73,14 +65,13 @@ A beautiful, responsive, customizable, accessible (wai-aria) replacement for jav
 <br><br>
 
 ## Run Tailwindcss
- :warning: You must have [NodeJs](https://nodejs.org/en)
+ :warning: You must have [NodeJs](https://nodejs.org/en) installed in your machine.
 
 Run the command below to activate tailwindcss
 
 
     //change the path according to your project
-    npx tailwindcss -i ./tailwind/input.css -o ./public/assets/css/tailwind.css --watch
-
+    npx @tailwindcss/cli -i ./tailwind/input.css -o ./public/assets/css/tailwind.css --watch
 </br></br>
 
 
