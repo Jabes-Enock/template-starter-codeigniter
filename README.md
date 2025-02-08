@@ -67,6 +67,11 @@ jQuery is a fast, small, and feature-rich JavaScript library.
 ## Run Tailwindcss
  :warning: You must have [NodeJs](https://nodejs.org/en) installed in your machine.
 
+Run the command below to install tailwindcss
+
+    npm install
+
+  <br>
 Run the command below to activate tailwindcss
 
 
